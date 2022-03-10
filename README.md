@@ -1,6 +1,6 @@
 # The 商店 (Shop)
 
-Pronounced "gǒu shǐ"
+Pronounced "shāng diàn"
 
 ## 我们是什么 (What are we?)
 
