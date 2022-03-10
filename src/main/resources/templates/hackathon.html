@@ -1,0 +1,99 @@
+<!-- This page is illustrative and contains ideas about HTML formatting -->
+<!DOCTYPE HTML>
+<!-- Signals to the Layout Dialect which layout should be used to decorate this View -->
+<html xmlns:layout="http://www.w3.org/1999/xhtml"
+      xmlns:th="http://www.w3.org/1999/xhtml" xmlns=""
+      layout:decorate="~{layout1}" lang="en">
+
+<!-- <head> -->
+<head><div layout:fragment="metadata" th:remove="tag">
+    <title>Draw</title>
+</div>
+</head>
+
+<body><div layout:fragment="content" th:remove="tag">
+    <h1 class="text-center">JavaScript - Draw on Canvas</h1>
+    <div class="container py-4 bg-primary" style="text-align:center;">
+        <canvas id="canvas" width="512" height="384" ></canvas>
+        <br>
+        <input type="text" id="x" name="x" placeholder="x">
+        <input type="text" id="y" name="y" placeholder="y">
+        <input type="text" id="l" name="l" placeholder="length">
+        <button onclick="newSquare()">Click</button>
+        <!--<input type="text" th:field="*{x}" /><br/>
+        <input type="text" th:field="*{y}" /><br/>
+        <input type="text" th:field="*{z}" /><br/>
+        <button onclick="square()">Click</button>-->
+    </div>
+
+    <script th:inline="javascript">
+        // https://www.w3schools.com/graphics/canvas_intro.asp
+        const canvas = document.getElementById('canvas');
+        const ctx = canvas.getContext('2d');
+        const width = canvas.width;
+        const height = canvas.height;
+        const unit = 16;   // unit block size
+
+
+        // grid based off of width, height
+        function grid(){
+            // color and pen width
+            ctx.strokeStyle = 'blue';
+            ctx.lineWidth = 1;
+            // make graph paper look
+            for (let col = 0; col < width; col += unit) {
+                for (let row = 0; row < height; row += unit) {
+                    ctx.strokeRect(col, row, unit, unit);
+                }
+            }
+        }
+        const x0 = width*.5;
+        const y0 = height*.5;
+        // axis lines
+        function axis() {
+            // color and pen width
+            ctx.strokeStyle = 'red';
+            ctx.lineWidth = 3;
+
+            // x & y zero midpoints of grid
+
+
+            // x-axis
+            ctx.moveTo(0, y0);
+            ctx.lineTo(width, y0);
+            ctx.stroke();
+            // y-axis
+            ctx.moveTo(x0, 0);
+            ctx.lineTo(x0, height);
+            ctx.stroke();
+        }
+
+        // square using lines
+        // three actions
+        grid();
+        axis();
+        // hack 1: make square according to grid positioning
+        // hack 2: plot line or square on grid from user input according
+        function newSquare() {
+            ctx.strokeStyle = 'black';
+            ctx.lineWidth = 5;
+            const x = document.getElementById("x").value*unit+16*unit;
+            const y = 12*unit-document.getElementById("y").value*unit;
+            const l = document.getElementById("l").value*unit;
+            console.log(x);
+            console.log(y);
+            console.log(l);
+
+            ctx.beginPath();
+            ctx.moveTo(x, y);
+            ctx.lineTo(x, y-l);
+            ctx.lineTo(x+l, y-l);
+            ctx.lineTo(x+l, y);
+            ctx.lineTo(x, y);
+            ctx.stroke();
+        }
+    </script>
+</div>
+</body>
+
+</html>
