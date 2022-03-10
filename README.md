@@ -20,7 +20,7 @@ Scrum Master - Abhijay Deevi - The dubshottical leader of the project as he skil
 
 Github Manager/Database - Grace Le - The killshottical database developer and the controller of the godly github.
 
-Web Design/Database - Akshit Prathipati - The poppable website + CSS designer as well as the dubshottical database developer. 
+Web Design/Database - Ak Prathipati - The poppable website + CSS designer as well as the dubshottical database developer. 
 
 Deployement Officer - Eric Wang - He goes into the depths of the world and into the code and deployes our killshottical website. 
 
