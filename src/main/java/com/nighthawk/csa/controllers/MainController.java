@@ -41,12 +41,6 @@ public class MainController {
         return "starters/image";
     }
 
-    @GetMapping("/games")
-    public String games() { return "games"; }
-
-    @GetMapping("/spotify")
-    public String spotify() { return "spotify"; }
-
     @GetMapping("/hackathon")
         public String hackathon() { return "hackathon"; }
 
