@@ -1,6 +1,5 @@
 package com.nighthawk.csa.controllers;
 
-import JustinFRQs.CoinGame;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -55,8 +54,9 @@ public class ABController {
     // CONTROLLER handles GET request for /greeting, maps it to greeting() and does variable bindings
     public String ghibliapi() {
         return "ghibliapi"; }
-
+/*
     @GetMapping("/coingame")
+
 
     public String coingame(Model model) {
 
@@ -84,5 +84,8 @@ public class ABController {
         model.addAttribute("round", round);
 
         return "coingame";
+
+
+     */
     }
-}
+
