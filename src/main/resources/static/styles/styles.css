@@ -8,7 +8,7 @@ body{
 }
 
 body {
-  background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+  background: linear-gradient(-45deg, #ffffff, #fff7fe, #ffbdf5, #ff82e6);
   background-size: 400% 400%;
   animation: gradient 15s ease infinite;
   height: 100vh;
@@ -37,7 +37,7 @@ a:hover{
 
 
 .ns-bg {
-  background-image: url("../images/arcade2.jfif");
+  background-image: url("../images/background1.jfif");
   background-attachment: fixed;
   background-size: cover;
 }
@@ -238,7 +238,7 @@ a:hover{
   color:white;
   text-shadow: 2px 2px 5px #202020;
   /* background-color: #404040; */
-  background-image: url("../images/arcade1.jpg");
+  background-image: url("../images/background1.jfif");
   background-repeat: no-repeat;
   background-position: center;
   background-attachment: fixed;
@@ -312,7 +312,7 @@ a:hover{
   position: relative;
   top: -70px;
   color:white;
-  background-image: url(../images/arcade1.jpg);
+  background-image: url(../images/background4.jpg);
   /* background-image: linear-gradient(141deg, rgba(92,145,98,1) 0%, rgba(34,105,56,1) 51%, rgba(16,68,51,1) 100%); */
   background-repeat: no-repeat;
   background-position: top;
