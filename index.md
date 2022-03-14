@@ -9,7 +9,6 @@ We are the asian storekeepers!!! We created an asian store for everyone so that 
 Some of our ideas include having a marketplace page where people can buy different foods and items. We also have a currency exchange where you can turn white money to yellow money. (You can make money from playing our asian games!!!!!!). API that has chinese music where people can purchase different songs and play them to their heart's content. We also will create a database where people can save their information and save the items they have. We will also incorporate a google translate sort of thing where people can translate some english words into chinese. 
 
 Wireframe: ![Wireframe](https://github.com/gracele246/theshop/blob/main/src/main/resources/static/images/the%20shop.jpg)
-![Book logo](/theshop/blob/main/src/main/resources/static/images/the%20shop.jpg)
 
 Success Idea: The success is when we are able to get mostly the marketplace fully functional because that is the most important part of the project. 
 
@@ -25,7 +24,7 @@ Web Design/Database - Ak Prathipati - The poppable website + CSS designer as wel
 
 Deployement Officer - Eric Wang - He goes into the depths of the world and into the code and deployes our killshottical website.
 
-##Github Pages
+## Github Pages
 
 [Abhijay Deevi](https://dubshott.github.io/ds2p2abhijayd/)
 
