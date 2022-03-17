@@ -1,6 +1,3 @@
-
-{% include navigation.html %}
-
 ### Sponsor Assignment
 
 People | Github Repo | Commits |
