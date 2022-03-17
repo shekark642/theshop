@@ -23,6 +23,14 @@ Web Design/Database - Ak Prathipati - The poppable website + CSS designer as wel
 
 Deployement Officer - Eric Wang - He goes into the depths of the world and into the code and deployes our killshottical website.
 
+People | Github Repo | Commits |
+-------------  | -------------- | -------------- |
+Grace  | [Indi Github repo](https://github.com/gracele246/individualgit) |[Commits](https://github.com/gracele246/individualgit/commits/main)| 
+Eric  | [Indi Github repo](https://github.com/elw55555/individualgit) |[Commits](https://github.com/elw55555/individualgit/commits/main)| 
+Abhijay |[Indi Github repo](https://github.com/Dubshott/ds2p2abhijayd) |[Commits](https://github.com/Dubshott/ds2p2abhijayd/commits/main)|
+Ak |[Indi Github repo]( https://github.com/akprathipati/individualgit) |[Commits](https://github.com/akprathipati/individualgit/commits/main)| 
+
+
 ## Github 页面 (Github Pages)
 
 [Abhijay Deevi](https://dubshott.github.io/ds2p2abhijayd/)
