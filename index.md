@@ -35,8 +35,3 @@ Deployement Officer - Eric Wang - He goes into the depths of the world and into 
 [Ak Prathipati]()
 
 [Eric Wang](https://elw55555.github.io/individualgit/)
-
-
-### Support or Contact
-
-You can use the [editor on GitHub](https://github.com/gracele246/theshop/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
