@@ -1,24 +1,28 @@
 <!DOCTYPE html>
+<!-- <html> -->
+
 <html xmlns:layout="http://www.w3.org/1999/xhtml" xmlns:th="http://www.w3.org/1999/xhtml"
       layout:decorate="~{layout1}" lang="en">
 
 <!-- Setting up the header to get in all the fonts, css, and connections -->
 <head>
+
+<!--
+    <div th:replace="fragments/head1 :: header"></div>
+-->
     <div layout:fragment="metadata" th:remove="tag">
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
         <meta charset="utf-8">
         <title>Login Page</title>
-        <link th:href="@{/styles/styles.css}" rel="stylesheet" />
-        <script src="https://kit.fontawesome.com/ecb5994ee2.js" crossorigin="anonymous"></script>
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
+        <link th:href="@{/styles/login.css}" rel="stylesheet" />
     </div>
     <title>...</title>
+
 </head>
 
 <!-- Setting up all our boxes in the HTML file -->
 <body>
+    <div layout:fragment="content" th:remove="tag">
     <div class="center">
         <!-- Just setting up our post methods to get user input for the Username and Password -->
         <h1>Login</h1>

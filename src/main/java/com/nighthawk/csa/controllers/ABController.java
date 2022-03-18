@@ -14,10 +14,15 @@ public class ABController {
     @GetMapping("/aboutus")
     public String aboutus() { return "aboutus"; }
 
+
+
     @GetMapping("/ghibliapi")
     // CONTROLLER handles GET request for /greeting, maps it to greeting() and does variable bindings
     public String ghibliapi() {
         return "ghibliapi"; }
+
+    @GetMapping("/login")
+    public String login() { return "login"; }
 /*
     @GetMapping("/coingame")
 
