@@ -14,6 +14,9 @@ Some of our ideas include having a marketplace page where people can buy differe
 
 Success Idea: The success is when we are able to get mostly the marketplace fully functional because that is the most important part of the project. 
 
+![image](https://user-images.githubusercontent.com/73254122/159048628-7dd1e36f-8873-43bc-8058-16267f4215d9.png)
+
+
 ## 团队责任 (Team Roles) 
 
 **Product Owner** - The one and only MORT!!! He will be our supervising officers to ensure that his company, "The 商店," reaches new heights and gets tons of money!!!
