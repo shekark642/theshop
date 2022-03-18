@@ -3,6 +3,7 @@
 
 Pronounced "shāng diàn"
 
+{% include navigation.html %}
 
 ## 我们是什么 (What are we?)
 
