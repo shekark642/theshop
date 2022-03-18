@@ -21,12 +21,12 @@ Success Idea: The success is when we are able to get mostly the marketplace full
 
 **Product Owner** - The one and only MORT!!! He will be our supervising officers to ensure that his company, "The 商店," reaches new heights and gets tons of money!!!
 
-Scrum Master - Abhijay Deevi - The dubshottical leader of the project as he skillfully manages the entire team of asians. 
+**Scrum Master** - Abhijay Deevi - The dubshottical leader of the project as he skillfully manages the entire team of asians. 
 
-Github Manager/Database - Grace Le - The killshottical database developer and the controller of the godly github.
+**Github Manager/Database** - Grace Le - The killshottical database developer and the controller of the godly github.
 
-Web Design/Database - Ak Prathipati - The poppable website + CSS designer as well as the dubshottical database developer. 
+**Web Design/Database** - Ak Prathipati - The poppable website + CSS designer as well as the dubshottical database developer. 
 
-Deployement Officer - Eric Wang - He goes into the depths of the world and into the code and deployes our killshottical website.
+**Deployement Officer** - Eric Wang - He goes into the depths of the world and into the code and deployes our killshottical website.
 
 
