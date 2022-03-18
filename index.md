@@ -30,12 +30,3 @@ Web Design/Database - Ak Prathipati - The poppable website + CSS designer as wel
 Deployement Officer - Eric Wang - He goes into the depths of the world and into the code and deployes our killshottical website.
 
 
-## Github 页面 (Github Pages)
-
-[Abhijay Deevi](https://dubshott.github.io/ds2p2abhijayd/)
-
-[Grace Le](https://gracele246.github.io/individualgit/)
-
-[Ak Prathipati]()
-
-[Eric Wang](https://elw55555.github.io/individualgit/)
