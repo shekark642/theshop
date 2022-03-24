@@ -16,9 +16,6 @@ Success Idea: The success is when we are able to get mostly the marketplace full
 
 ![image](https://user-images.githubusercontent.com/73254122/159048628-7dd1e36f-8873-43bc-8058-16267f4215d9.png)
 
-## Replits
-- [All Repls](replit.html)
-
 ## 团队责任 (Team Roles) 
 
 **Product Owner** - The one and only MORT!!! He will be our supervising officers to ensure that his company, "The 商店," reaches new heights and gets tons of money!!!
