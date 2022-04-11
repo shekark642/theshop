@@ -1,6 +1,9 @@
-<!DOCTYPE html>
+<!DOCTYPE HTML>
+<!-- Signals to the Layout Dialect which layout should be used to decorate this View -->
+<html xmlns:layout="http://www.w3.org/1999/xhtml" xmlns:th="http://www.w3.org/1999/xhtml"
+      layout:decorate="~{layout1}" lang="en">
 <body onload="NextQuestion(0)">
-<main>
+<html>
     <!-- creating a modal for when quiz ends -->
     <div class="modal-container" id="score-modal">
 
@@ -76,7 +79,7 @@
         </div>
 
     </div>
-</main>
+</html>
 <script src="index.js"></script>
 </body>
 
